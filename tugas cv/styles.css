@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1300px;
+    font-family: 'Poppins', sans-serif;
+    overflow: scroll;
+}
+
+.box{
+    background: rgba(0, 0, 0, 0.5);
+    margin: 50px auto;
+    color: white;
+    width: 480px;
+    height: 1190px;
+    text-align: center;
+    padding: 40px;
+}
+
+.box h1{
+    letter-spacing: 3.0px;
+    margin-top: 20px;
+    font-weight: 100;
+}
+
+.box h2{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+.box h3{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+.box h4{
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 70;
+    text-align: left;
+}
+
+.box p{
+    text-align: justify;
+    margin-top: 25px;
+}
+
+.image{
+    margin-top: 25px;
+}
+
+.box > img{
+    width: 190px;
+    border-radius: 50%;
+    text-align: center;
+
+}
+
+.box .image img{
+    width: 45px;
+    margin-left: 35px;
+    margin-right: 35px;
+    text-align: center;
+}
