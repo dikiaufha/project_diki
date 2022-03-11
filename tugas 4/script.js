@@ -14,3 +14,39 @@ function buttonTambah() {
 
 	getElement('hasil').value = text1 + text2;
 }
+
+function buttonKurang() {
+	// 65.00 2.1 4.2
+	var text1 = parseFloat(getElement('bil1').value);
+	var text2 = parseFloat(getElement('bil2').value);
+	if (!text1 || !text2) { 
+		alert('Input tidak boleh kosong!'); 
+		return false;
+	}
+
+	getElement('hasil').value = text1 - text2;
+}
+
+function buttonKali() {
+	// 65.00 2.1 4.2
+	var text1 = parseFloat(getElement('bil1').value);
+	var text2 = parseFloat(getElement('bil2').value);
+	if (!text1 || !text2) { 
+		alert('Input tidak boleh kosong!'); 
+		return false;
+	}
+
+	getElement('hasil').value = text1 * text2;
+}
+
+function buttonBagi() {
+	// 65.00 2.1 4.2
+	var text1 = parseFloat(getElement('bil1').value);
+	var text2 = parseFloat(getElement('bil2').value);
+	if (!text1 || !text2) { 
+		alert('Input tidak boleh kosong!'); 
+		return false;
+	}
+
+	getElement('hasil').value = text1 / text2;
+}
