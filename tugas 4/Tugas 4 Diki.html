@@ -1,34 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Tugas 4</title>
+  <meta charset="utf-8">
+  <title>web diki</title>
+  <link rel="icon" type="image/x-icon" href="../public/Image/coding.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+  <div class="container">
+    <main class="grid">
+          <article>
+            <img src="https://source.unsplash.com/random/300x200" alt="Sample photo">
+            <div class="text">
+              <h3>CALCULATOR</h3>
+              <table>
+                <tr>
+                  <td><label>Input</label></td>
+                  <td><input type="number" id="bil1"></td>
+                </tr>
+                <tr>
+                  <td><label>Input</label></td>
+                  <td><input type="number" id="bil2"></td>
+                </tr>
+                <tr>
+                  <td><label>Hasil</label></td>
+                  <td><input type="number" id="hasil" readonly></td>
+                </tr>
+              </table>
+              <button button type="button" onclick="buttonTambah()">+</button>
+              <button button type="button" onclick="buttonKurang()">-</button>
+              <button button type="button" onclick="buttonBagi()">/</button>
+              <button button type="button" onclick="buttonKali()">*</button>
+            </div>
+          </article>
+        </main>
+  </div>
+<!-- Perintah js -->
+  <script type="text/javascript" src="script.js"></script>
 
-<table>
-	<tr>
-		<td><label>Bil 1</label></td>
-		<td><input type="number" id="bil1"></td>
-	</tr>
-	<tr>
-		<td><label>Bil 2</label></td>
-		<td><input type="number" id="bil2"></td>
-	</tr>
-	<tr>
-		<td><label>Hasil</label></td>
-		<td><input type="number" id="hasil" readonly></td>
-	</tr>
-</table>
-
-<table>
-	<tr>
-		<td><button type="button" onclick="buttonTambah()" style="width: 30px; height: 30px;">+</button></td>
-		<td><button type="button" onclick="buttonKurang()" style="width: 30px; height: 30px;">-</button></td>
-		<td><button type="button" onclick="buttonKali()" style="width: 30px; height: 30px;">x</button></td>
-		<td><button type="button" onclick="buttonBagi()" style="width: 30px; height: 30px;">/</button></td>
-	</tr>
-</table>
-
-<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
